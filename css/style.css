@@ -22,13 +22,27 @@
 /*******************************************/
 
 body {
-
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
+
+
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+p {
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  margin: 30px 0;
+}
+
 header {
 
 }
